@@ -1,0 +1,5 @@
+.pageWrapper {
+  min-height: 100vh;
+  padding: 3rem 1rem 1rem;
+  background-color: rgba(100, 9, 100, .1);
+}

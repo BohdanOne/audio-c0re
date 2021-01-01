@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+}
+
+.toggleButton {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.list {
+  position: absolute;
+  top: 1rem;
+  list-style: none;
+}
+
+.locationLink {
+  padding: .25rem 0;
+  background-color: rgba(255, 255, 255, .8);
+  backdrop-filter: blur(10px);
+}
+
+.locationLink:nth-of-type(odd) {
+  background-color: rgba(206, 182, 206, .8);
+}

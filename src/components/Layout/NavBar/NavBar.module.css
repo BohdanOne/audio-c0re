@@ -1,0 +1,44 @@
+.outerContainer {
+  width: 100%;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.innerContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageTitle {
+  display: block;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  text-decoration: none;
+  line-height: 1;
+  color: rgb(100, 9, 100);
+}
+
+.pageTitle span + span {
+  margin-left: 0.5rem;
+}
+
+.linkList {
+  display: flex;
+  list-style: none;
+}
+
+.link {
+  margin-left: .5rem;
+}

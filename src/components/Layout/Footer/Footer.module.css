@@ -1,0 +1,13 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  margin-bottom: .5rem;
+  font-size: 0.8rem;
+  color: rgb(53, 53, 53);
+}
