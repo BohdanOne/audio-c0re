@@ -17,7 +17,7 @@ export default function LocationPage({ data }) {
           width='100%'
           height='500'
           id='gmap_canvas'
-          src='https://maps.google.com/maps?q=51.10788%2C%2017.03853&t=&z=13&ie=UTF8&iwloc=&output=embed'
+          src={`https://maps.google.com/maps?q=${data.contentfulLocationPage.coords.lat}%2C%20${data.contentfulLocationPage.coords.lon}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
           frameBorder='0'
           scrolling='no'
           marginHeight='0'
